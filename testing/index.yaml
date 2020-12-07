@@ -1,0 +1,44 @@
+apiVersion: v1
+entries:
+  cert-manager-setup:
+  - apiVersion: v1
+    appVersion: 1.0.3
+    created: "2020-12-07T12:46:18.745631-06:00"
+    description: Install cert-manager and optionally add a ClusterIssuer
+    digest: 81c0e8d2e5b7dca4eec7d0a53e7da17be22fd81978846905c503ae0ff6a786f7
+    home: https://github.com/mesosphere/charts
+    keywords:
+    - cert-manager
+    - issuer
+    - clusterissuer
+    maintainers:
+    - email: jrodriguez@d2iq.com
+      name: jr0d
+    name: cert-manager-setup
+    sources:
+    - https://github.com/jetstack/cert-manager
+    - https://github.com/jetstack/cert-manager/tree/master/deploy/charts/cert-manager
+    urls:
+    - cert-manager-setup-0.2.7.tgz
+    version: 0.2.7
+  - apiVersion: v1
+    appVersion: 1.0.3
+    created: "2020-12-07T12:46:18.728581-06:00"
+    description: Install cert-manager and optionally add a ClusterIssuer
+    digest: e6825e67e674448516089a1649bc1381fc10b52087d4d462d1ba79760582f64b
+    home: https://github.com/mesosphere/charts
+    keywords:
+    - cert-manager
+    - issuer
+    - clusterissuer
+    maintainers:
+    - email: jrodriguez@d2iq.com
+      name: jr0d
+    name: cert-manager-setup
+    sources:
+    - https://github.com/jetstack/cert-manager
+    - https://github.com/jetstack/cert-manager/tree/master/deploy/charts/cert-manager
+    urls:
+    - cert-manager-setup-0.2.6.tgz
+    version: 0.2.6
+generated: "2020-12-07T12:46:18.710154-06:00"
